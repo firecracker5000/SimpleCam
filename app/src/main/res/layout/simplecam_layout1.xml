@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="300px"
+        android:layout_height="300px" />
+
+
+    <Button
+        android:id="@+id/Chris_Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chris_Button1"
+        android:layout_marginTop="400dp"
+        android:onClick="Chris_Button1_OnClick" />
+
+
+
+<!-- Button
+    android:id="@+id/btnCapture"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/round_button"
+    android:text="@string/btn_capture" /-->
+
+</FrameLayout>
