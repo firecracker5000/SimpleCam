@@ -58,7 +58,8 @@ public class CamTestActivity extends Activity {
         mysurface.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Log.i("MyLog", "Chris_Button1: got clicked from code wired up");
+                //Log.i("MyLog", "Chris_Button1: got clicked from code wired up");
+                camera.takePicture(shutterCallback, rawCallback, jpegCallback);
             }
         });
 
